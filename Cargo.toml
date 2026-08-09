@@ -14,7 +14,7 @@ homepage = "https://ratatui.rs"
 
 [dependencies]
 nom = "8"
-ratatui-core = { git = "https://github.com/HalFrgrd/ratatui.git", rev = "00812f7d79fafe379fc18c3d98fab733170aa9ce", default-features = false, package = "ratatui-core" }
+ratatui-core = { git = "https://github.com/HalFrgrd/ratatui.git", rev = "90caee347f1ce246fbfa34fb70ab6279ee13a78e", default-features = false, package = "ratatui-core" }
 simdutf8 = { version = "0.1", optional = true }
 smallvec = { version = "1", features = ["const_generics"] }
 thiserror = "2"
