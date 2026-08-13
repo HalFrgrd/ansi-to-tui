@@ -401,6 +401,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2"
 
 [[package]]
+name = "log"
+version = "0.4.33"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ceec5bc11778974d1bcb055b18002eba7f4b3518b6a0081b3af5f21666da9ad"
+
+[[package]]
 name = "lru"
 version = "0.18.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -520,13 +526,14 @@ dependencies = [
 [[package]]
 name = "ratatui-core"
 version = "0.1.2"
-source = "git+https://github.com/HalFrgrd/ratatui.git?rev=86867d19c8039e3cdded04242612a6ebe8a046a6#86867d19c8039e3cdded04242612a6ebe8a046a6"
+source = "git+https://github.com/HalFrgrd/ratatui.git?rev=c1f564f86b292e971d550b989634a5932683a672#c1f564f86b292e971d550b989634a5932683a672"
 dependencies = [
  "bitflags",
  "compact_str",
  "hashbrown 0.17.1",
  "itertools 0.14.0",
  "kasuari",
+ "log",
  "lru",
  "strum",
  "thiserror",
