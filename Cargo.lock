@@ -526,7 +526,7 @@ dependencies = [
 [[package]]
 name = "ratatui-core"
 version = "0.1.2"
-source = "git+https://github.com/HalFrgrd/ratatui.git?rev=067877a9bdfa60d7adb661cda19c88851e84f1a5#067877a9bdfa60d7adb661cda19c88851e84f1a5"
+source = "git+https://github.com/HalFrgrd/ratatui.git?branch=inline_viewport_improvments#107a2ca60e0c9f58e9e518a9a8709071719faf29"
 dependencies = [
  "bitflags",
  "compact_str",
